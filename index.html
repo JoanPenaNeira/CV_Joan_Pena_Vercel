@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar" aria-label="Navegación principal">
+
+            <div class="navbar-brand">
+                <a href="#" class="brand-name">Joan Peña Neira</a>
+            </div>
+
+            <div class="navbar-menu">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="https://www.linkedin.com/in/joan-pe%C3%B1a-neira-307754358/" target="_blank" rel="noopener noreferrer" aria-label="Perfil de LinkedIn">
+                        <img src="assets/Logo_Linkedin.png" alt="Icono de LinkedIn" class="social-icon">
+                    </a>
+	            </li>
+                <li class="nav-item">
+                    <a href="https://github.com/JoanPenaNeira" target="_blank" rel="noopener noreferrer" aria-label="Perfil de LinkedIn">
+                        <img src="assets/Logo_GitHub.png" alt="Icono de GitHub" class="social-icon">
+                    </a>
+	            </li>
+                <li class="nav-item">
+                    <a href="assets/CV_Castellano_Joan_Pena.pdf" target="_blank" rel="noopener noreferrer">CV</a>
+                </li>
+            </ul>
+        </div>
+      </nav>
+    </header>
+    
+
+        <!-- Hero Section -->
+    <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-background"></div>
+        
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 id="hero-title" class="hero-name">
+                    Joan Peña Neira
+                </h1>
+                <p class="hero-role">
+                    Networking Engineer
+                </p>
+            </div>
+        </div>
+    </section>
+
+<section id="sobre-mi" class="sobre-mi">
+  <div class="container">
+
+    <div class="sobre-mi-contenido">
+      <!-- Foto en la izquierda -->
+      <div class="foto-perfil">
+        <img src="assets/joan_foto_PLACEHOLDER.png" alt="Joan Peña Neira - Networking Engineer">
+      </div>
+
+      <!-- Texto en la derecha -->
+      <div class="descripcion">
+        <h2>Sobre mí</h2>
+        <p>
+          Soy un entusiasta de las redes informáticas, actualmente finalizando el Grado Superior en Administración de Sistemas Informáticos en Red (ASIR). 
+          Dedico parte de mi tiempo a diseñar y resolver laboratorios prácticos con Cisco Packet Tracer y GNS3, profundizando en subnetting, VLANs, OSPF, NAT, ACLs y seguridad de redes.
+        </p>
+
+        <p>
+          Mi objetivo es incorporarme al mundo profesional en áreas como ingeniería de redes, administración de redes o gestión de infraestructuras TI. 
+          Cuento con dominio nativo de español y catalán, además de un nivel B2 de inglés y algunas de mis principales habilidades consisten en:
+        </p>
+
+        <ul class="habilidades-list">
+          <li>Sólidos conocimientos de TCP/IP, subnetting (incluyendo VLSM), IPv4/IPv6 y conceptos de “routing”.</li>
+          <li>Experiencia práctica configurando routers, switches y firewalls en entornos simulados (Cisco Packet Tracer y GNS3).</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Sección Parallax de transición -->
+<section class="parallax-transicion">
+  <div class="parallax-overlay"></div>
+</section>
+
+<section id="projects" class="projects-section">
+    <h2>Proyectos</h2>
+    <div class="projects-grid">
+        <!-- Card 1 -->
+        <div class="project-card">
+            <h3>Diseño e implementación de una infraestructura de red</h3>
+            <p>Contexto: Se diseña e implementa una infraestructura de red para una ferretería, dividiendo una red IP en subredes y configurando el enrutamiento entre tres equipos virtualizados.
+Se verifica la conectividad y el acceso a Internet mediante rutas estáticas, ip_forwarding y pruebas con traceroute.
+.</p>
+            <ul class="technologies">
+                <li>Virtualbox</li>
+                <li>Ubuntu Desktop</li>
+                <li>Linux Server</li>
+            </ul>
+            <a href="https://github.com/JoanPenaNeira/WIP---Design-and-implementation-of-a-network-infrastructure." target="_blank">Ver Repo/Demo</a>
+        </div>
+        
+        <!-- Card 2 -->
+        <div class="project-card">
+            <h3>Despliegue de Software en infraestructura de empresa</h3>
+            <p>Despliegue del sistema operativo y del software requerido en los equipos de una empresa, cumpliendo requisitos de particionado, aplicaciones y perfiles de usuario.
+Además, se aplican políticas de seguridad para restringir permisos, accesos y el uso de dispositivos según el rol de cada usuario.</p>
+            <ul class="technologies">
+                <li>MMC</li>
+                <li>Powershell/CMD</li>
+                <li>VirtualBox</li>
+            </ul>
+            <a href="https://github.com/JoanPenaNeira/WIP---Software-Deployment-on-Enterprise-Infrastructure" target="_blank">Ver Repo/Demo</a>
+        </div>
+        
+        <!-- Card 3 -->
+        <div class="project-card">
+            <h3>Pendrive Multiboot para Sysadmin</h3>
+            <p>Crear un pendrive multiboot con diferentes herramientas útiles para administradores de sistemas y con ISOs para la instalación de distintos sistemas operativos.</p>
+            <ul class="technologies">
+                <li>Ventoy</li>
+                <li>Yumi</li>
+                <li>VirtualBox</li>
+            </ul>
+            <a href="https://github.com/JoanPenaNeira/WIP---Multiboot-USB-for-Sysadmins" target="_blank">Ver Repo/Demo</a>
+        </div>
+        
+        <!-- Card 4 -->
+        <div class="project-card">
+            <h3>CCNA Networking Lab</h3>
+            <p>Lab que abarca una configuración completa de red desde cero, incluyendo IPv4 e IPv6, rutas estáticas, VLANs, spanning tree, OSPF, EtherChannel, DHCP, DNS, NAT, SSH, etc.
+</p>
+            <ul class="technologies">
+                <li>Packet Tracer</li>
+                <li>GNS3</li>
+            </ul>
+            <a href="https://github.com/JoanPenaNeira/WIP---CCNA-Networking-Lab" target="_blank">Ver Repo/Demo</a>
+        </div>
+    </div>
+</section>
+
+<!-- Sección Experiencia Profesional -->
+<section id="experiencia" class="experiencia-section">
+  <div class="container">
+    <h2>EXPERIENCIA PROFESIONAL</h2>
+    <div class="experience-list">
+
+        <div class="experience-item">
+        <div class="experience-date">Septiembre 2022 – Julio 2024</div>
+        <div class="experience-content">
+          <h3>Profesor de Programación de Software</h3>
+          <div class="company">Activatech</div>
+          <div class="description">
+            <ul>
+              <li>Impartición de clases de programación en diversas
+                escuelas.</li>
+              <li>Formación de alumnos desde infantil hasta sexto de
+                primaria.</li>
+              <li>Diseño y explicación de actividades y ejercicios
+                básicos de programación.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <div class="experience-item">
+        <div class="experience-date">Septiembre 2023 – Junio 2024</div>
+        <div class="experience-content">
+          <h3>HelpDesk/Support IT</h3>
+          <div class="company">Col.legi Pineda</div>
+          <div class="description">
+            <ul>
+              <li>Soporte técnico en incidencias de hardware y
+                software</li>
+              <li>Configuración y mantenimiento de equipos
+                informáticos</li>
+              <li>Diagnóstico de conexiones e incidencias de red</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Sección Formación Académica -->
+      <section class="formacion-section" id="formacion">
+  <div class="container">
+    <h2>FORMACIÓN ACADÉMICA</h2>
+
+    <div class="formacion-list">
+      
+      <div class="formacion-item">
+        <div class="formacion-date">Sept 2025 – Actual</div>
+        <div class="formacion-content">
+          <h3>Formación en CCNA</h3>
+          <span class="institucion">Professional Online</span>
+          <div class="description">
+            <p>Formación autodidacta en redes orientadas a la industria, preparándome para la certificación CCNA, adquiriendo conocimientos prácticos en networking como:</p>
+            <ul>
+              <li>Routing y switching: direccionamiento IP, subnetting, VLANs, configuración y funcionamiento de routers y switches</li>
+              <li>Configuración y operación de dispositivos de red: configuración de routers y switches, implementación de protocolos de red, resolución de problemas y uso de CLI en entornos Cisco</li>
+              <li>Seguridad y servicios de red: conceptos básicos de ciberseguridad, ACLs, NAT, DHCP, DNS, etc.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="formacion-item">
+        <div class="formacion-date">2025 – 2027</div>
+        <div class="formacion-content">
+          <h3>Grado Superior en Administración de Sistemas Informáticos y Redes (ASIR)</h3>
+          <span class="institucion">Instituto La Salle Gràcia - Barcelona</span>
+          <div class="description">
+            <p>Grado Superior en Administración de Sistemas Informáticos en Red (ASIR), enfocado en la instalación, configuración y administración de sistemas, redes y servicios informáticos en entornos profesionales, asegurando su correcto funcionamiento y seguridad</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="formacion-item">
+        <div class="formacion-date">2018 – 2022</div>
+        <div class="formacion-content">
+          <h3>Carrera Universitaria en VFX y Animación 3D</h3>
+          <span class="institucion">Universitat La Salle Ramón Llull – Barcelona</span>
+          <div class="description">
+            <p><div class="description">
+            <p>Grado universitario en VFX y Animación 3D, centrado en la creación de contenido digital avanzado, simulaciones y renderizado, integrando conocimientos de software, pipelines de producción y optimización de recursos computacionales, aplicables a entornos tecnológicos y de desarrollo de software.</p>
+          </div></p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
