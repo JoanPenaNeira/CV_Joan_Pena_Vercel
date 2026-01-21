@@ -28,3 +28,7 @@ La estructura del proyecto consiste en un directorio general llamado "CV_Practic
 -una carpeta llamada "css" donde se encuentra "style.css" y un "reset.css"
 -una carpeta llamada "assets" con todos sus respectivos archivos/ documentos externos (pdf del cv y varias imagenes usadas para la pagina web)
 -un archivo README.md
+
+## LINK PARA DEPLOY EN VERCEL
+
+https://cv-joan-pena-vercel.vercel.app/
