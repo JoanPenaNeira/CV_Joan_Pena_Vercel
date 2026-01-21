@@ -411,7 +411,6 @@ main {
   background: #252525;
   padding: 28px 32px;
   border-radius: 12px;
-  border-left: 4px solid #4CAF50;
   transition: all 0.3s ease;
 }
 
@@ -489,7 +488,6 @@ main {
   background: #252525;
   padding: 28px 32px;
   border-radius: 12px;
-  border-left: 4px solid #4CAF50;
   transition: all 0.3s ease;
 }
 
